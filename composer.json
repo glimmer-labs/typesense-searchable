@@ -3,17 +3,17 @@
   "description": "An easier way to use Typesense with Laravel Scout",
   "type": "library",
   "require": {
-    "php": "^8.3",
+    "php": "^8.2",
     "laravel/scout": "^10.13",
-    "illuminate/support": "^11.0|^12.0",
-    "illuminate/database": "^11.0|^12.0",
+    "illuminate/support": "^11.0 || ^12.0",
+    "illuminate/database": "^11.0 || ^12.0",
     "typesense/typesense-php": "^5.1"
   },
   "require-dev": {
     "laravel/pint": "^1.21",
-    "pestphp/pest": "^3.7",
-    "orchestra/testbench": "^9.0|^10.0",
-    "pestphp/pest-plugin-laravel": "^3.1"
+    "pestphp/pest": "^3.8 || ^4.1.4",
+    "orchestra/testbench": "^9.0 || ^10.8",
+    "pestphp/pest-plugin-laravel": "^3.1 || ^4.0"
   },
   "license": "MIT",
   "autoload": {
